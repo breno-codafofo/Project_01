@@ -1,6 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.arimo-uniquifier {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
 body {
     font-family: 'nunito';
     margin: 0;
     padding: 0;
+    text-align: center;
 }
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+    font-family: 'arimo';
+}
+
